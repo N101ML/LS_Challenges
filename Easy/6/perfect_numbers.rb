@@ -1,5 +1,3 @@
-require 'pry'
-
 class PerfectNumber
   def self.classify(num)
     raise(StandardError) if num < 1
